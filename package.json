@@ -1,0 +1,35 @@
+{
+  "name": "jsmime",
+  "version": "1.0.0",
+  "description": "Javascript mime-type resolver",
+  "type": "commonjs",
+  "main": "index.js",
+  "module": "index.mjs",
+  "exports": {
+    ".": {
+      "require":  "./index.cjs",
+      "default": "./index.mjs"
+    }
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fernando7jr/jsmime.git"
+  },
+  "keywords": [
+    "mime-type",
+    "web",
+    "http",
+    "file",
+    "mime",
+    "backend"
+  ],
+  "author": "Fernando R Setti Jr",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/fernando7jr/jsmime/issues"
+  },
+  "homepage": "https://github.com/fernando7jr/jsmime#readme"
+}
